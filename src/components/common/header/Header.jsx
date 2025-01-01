@@ -1,19 +1,22 @@
 import React, { useState } from 'react'
-import {Link} from "react-router-dom"
+import './header.css'
+import { Link } from 'react-router-dom'
+import {nav} from '../../data/Data'
+import logo from '../../images/logo.png'
+import apply from '../../images/apply.png'
 
-import "./header.css"
-import {nav} from "../../data/Data"
+import { FaTimes, FaBars } from 'react-icons/fa';
 
-function Header() {
+const Header = () => {
   const [navlist, setnavlist] = useState(false)
 
   return (
     <>
       <header>
         <div className="container flex">
-          <div className="logo">
-            <img src="../../images/logo.png" alt="" />
-          </div>
+            <div className="logo">
+              <img src={logo} alt="" />
+            </div>
             <div className="nav">
               <ul className={navlist ? 'small' : 'flex'}>
                 {nav.map((list, index) => (
@@ -23,17 +26,20 @@ function Header() {
                 ))}
               </ul>
             </div>
-            
-            <div className="buttons">Apply</div>
-            
+
+            <div className="apply">
+              <Link to="/apply"><img src={apply} alt="" /></Link>
+            </div>
+
             <div className="toggle">
               <button onClick={() => setnavlist(!navlist)}>
-                {navlist ? <i className="fa fa-times"></i> : <i className="fa fa-bars"></i>}
+                {navlist ? <FaTimes /> : <FaBars /> }
               </button>
             </div>
         </div>
       </header>
     </>
+    
   )
 }
 
