@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className="container flex">
+        <div className="nav-bar">
             <div className="logo">
               <img src={logo} alt="" />
             </div>

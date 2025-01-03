@@ -15,4 +15,8 @@ export const nav = [
         text: "Contact",
         path: "/contact"
     },
+    {
+        text: "FAQ",
+        path: "/faq"
+    },
 ]
