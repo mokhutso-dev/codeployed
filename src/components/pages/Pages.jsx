@@ -11,7 +11,7 @@ function Pages() {
     <Router>
       <Header/>
         <Routes>
-          <Route exact path='/' Component={Home} />
+          {/* <Route exact path='/' Component={Home} /> */}
           {/* <Route exact path='/about' Component={Home} /> */}
         </Routes>
       <Apply/>  
