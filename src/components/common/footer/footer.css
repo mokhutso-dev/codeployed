@@ -1,10 +1,14 @@
-.footer {
-  text-align: center;
-  padding: 20px;
-  background: #1d2636;
-  color: rgba(255, 255, 255, 0.5);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+.legal {
+    text-align:  center;
+    padding: 20px;
+    background: #1d2636;
+    /* color: rgba(255, 255, 255, 0.5); */
+    color: var(--grey);
+    border-top:1px solid rgba(255, 255, 255, 0.1) ;
 }
-.follow {
-  padding-bottom: 10px;
+
+@media screen and (max-width: 768px) {
+    footer .container {
+      grid-template-columns: repeat(2, 1fr);
+    }
 }
