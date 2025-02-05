@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import './button.css'
-
 function button() {
   return (
     <div>
@@ -17,5 +16,4 @@ function button() {
     </div>
   );
 }
-
 export default button;

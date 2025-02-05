@@ -10,7 +10,7 @@ function Header() {
   return (
     <>
       <header>
-        <div className="container flex">
+        <div className="nav-bar container flex">
           <div className="logo">
             <img src="../../images/logo.png" alt="" />
           </div>

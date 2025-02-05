@@ -1,25 +1,23 @@
 .fixed-button {
-    position: fixed;
-    bottom: 20px; /* Adjust distance from bottom */
-    right: 20px; /* Adjust distance from right */
-    background-color: #fff; /* Button color */
-    color:#1670f0;
-    /* color: white; */
-    padding: 15px 25px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    z-index: 999; /* Ensure it's on top */
-
-    transform: translate(-50%,-50%);
-    letter-spacing:2px;
-    text-transform:uppercase;
-    text-decoration:none;
-    box-shadow:0 20px 50px rgba(0,0,0,.5);
-    overflow:hidden;
-    
+  position: fixed;
+  bottom: 20px; /* Adjust distance from bottom */
+  right: 20px; /* Adjust distance from right */
+  background-color: #fff; /* Button color */
+  color:#1670f0;
+  /* color: white; */
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999; /* Ensure it's on top */
+  transform: translate(-50%,-50%);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  text-decoration:none;
+  box-shadow:0 20px 50px rgba(0,0,0,.5);
+  overflow:hidden;
+  
 }
-
 /* a{
 position: absolute;
 top: 50%;
@@ -55,16 +53,16 @@ animation: animate1 2s linear infinite;
 }
 @keyframes animate1
 {
- 0%
- {
-   transform:translateX(-100%);
- 
- }
- 100%
- {
-   transform:translateX(100%);
- 
- }
+0%
+{
+ transform:translateX(-100%);
+
+}
+100%
+{
+ transform:translateX(100%);
+
+}
 }
 a span:nth-child(2)
 {
@@ -79,16 +77,16 @@ animation-delay: 1s;
 }
 @keyframes animate2 
 {
- 0%
- {
-   transform:translateY(-100%);
- 
- }
- 100%
- {
-   transform:translateY(100%);
- 
- }
+0%
+{
+ transform:translateY(-100%);
+
+}
+100%
+{
+ transform:translateY(100%);
+
+}
 }
 a span:nth-child(3)
 {
@@ -102,16 +100,16 @@ animation: animate3 2s linear infinite;
 }
 @keyframes animate3
 {
- 0%
- {
-   transform:translateX(100%);
- 
- }
- 100%
- {
-   transform:translateX(-100%);
- 
- }
+0%
+{
+ transform:translateX(100%);
+
+}
+100%
+{
+ transform:translateX(-100%);
+
+}
 }
 a span:nth-child(4)
 {
@@ -126,18 +124,15 @@ animation-delay: 1s;
 }
 @keyframes animate4 
 {
- 0%
- {
-   transform:translateY(100%);
- 
- }
- 100%
- {
-   transform:translateY(-100%);
- 
- }
+0%
+{
+ transform:translateY(100%);
+
 }
+100%
+{
+ transform:translateY(-100%);
 
-
+}
+}
 /* ----------------------------------------- */
-
